@@ -1,7 +1,7 @@
 DATASET_PATH=$1
 IMAGE_PATH=$2
 GPU_IDX=$3
-COLMAP=/home/limingw/opt/colmap/bin/colmap
+COLMAP=/home/licheng/opt/colmap/bin/colmap
 
 if [ ! -f $DATASET_PATH/cam_para ]
 then
